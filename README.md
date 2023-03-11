@@ -15,7 +15,7 @@ This App can assist you in estimating fuel expenses for your travel plans by all
 * input fuel efficiency 
 * fuel price to obtain an accurate estimate. 
 
-##### The app provides a cost per mile breakdown, simplifying trip planning and budgeting. 
+##### The app provides a cost per kilometer breakdown, simplifying trip planning and budgeting. 
 ##### You can utilize this App to compare different travel options based on their fuel costs.
 
 ## Technologies Used:
