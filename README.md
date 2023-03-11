@@ -16,6 +16,13 @@ This App can assist you in estimating fuel expenses for your travel plans by all
 ##### The app provides a cost per mile breakdown, simplifying trip planning and budgeting. 
 ##### You can utilize this App to compare different travel options based on their fuel costs.
 
+## Technologies Used:
+### HTML, CSS, and Vanilla JavaScript.
+This app was built using the latest web development technologies: 
+* HTML for the markup, 
+* CSS for the styling, 
+* JavaScript for the functionality.
 
+Calculate a new Trip Consumption [HERE](https://luc-constantin.github.io)
 
 
