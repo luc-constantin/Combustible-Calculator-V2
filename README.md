@@ -1,6 +1,8 @@
 # Combustible-Calculator
 Combustible Calculator is an app that helps estimate fuel consumption based on user's inputs data
 
+![Combustible-calculator](https://user-images.githubusercontent.com/56940002/224471437-6ab32580-2119-4737-88dd-cc38a7b8c539.png)
+
 ### The App offers various features such as:
 
 * calculating gas consumption based on distance, 
