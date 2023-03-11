@@ -25,6 +25,6 @@ This app was built using the latest web development technologies:
 * CSS for the styling, 
 * JavaScript for the functionality.
 
-Calculate a new Trip Consumption [HERE](https://luc-constantin.github.io)
+Calculate a new Trip Consumption [HERE](https://luc-constantin.github.io/Combustible-Calculator-V2/)
 
 
