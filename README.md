@@ -5,9 +5,9 @@ Combustible Calculator is an app that helps estimate fuel consumption based on u
 
 ### The App offers various features such as:
 
-* calculating gas consumption based on distance, 
+* calculating gas consumption based on distance
 * calculating gas consumption price per liter 
-* fuel consumption (in liters per 100 km), A
+* fuel consumption (in liters per 100 km)
 ###### As it is currently in its early version, it only uses kilometers. 
 
 This App can assist you in estimating fuel expenses for your travel plans by allowing you to:
