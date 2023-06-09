@@ -6,7 +6,7 @@ form.addEventListener('submit', function(event) {
   const consumption = parseFloat(document.querySelector('#consumption').value.replace(/[.,](?!\d)|,(?=\d{3})/g, ''));
   const cost = (distance / 100) * consumption * price;
   const resultDiv = document.querySelector('#result');
-  resultDiv.innerHTML = `Result: The total cost of combustible used for ${distance.toLocaleString()} kilometers is ${cost.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} Euros (€).`;
+  resultDiv.innerHTML = `Result: The total cost of combustible used for ${distance.toLocaleString()} kilometers/miles is ${cost.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} Euros (€).`;
   // Reload the page after 30 seconds
   setTimeout(function() {
     window.location.reload();
