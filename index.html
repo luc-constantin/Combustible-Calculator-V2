@@ -1,58 +1,50 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Gas Price Consumption Calculator</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Gas Price Consumption Calculator</title>
+</head>
 
- <body>
-  <h1 id="title">Gas Price Consumption Calculator
-  </h1>
+<body>
+  <h1 id="title">Gas Price Consumption Calculator</h1>
   
-  <h3 id="title">
-  </h3>
+  <h3 id="title"></h3>
 
   <form id="combustible-form">
-	<div>
-	  <label for="distance" id="label_1">Distance (in kilometers/miles):</label>
-	  <input type="number" id="distance" name="distance" step="0.01" min="0" required>
-	</div>
-	
-	<div>
-	  <label for="price" id="label_2">Price per liter:</label>
-	  <input type="number" id="price" name="price" step="0.01" min="0" required>
-	</div>
-	
-	<div>
-	  <label for="consumption" id="label_3">Fuel consumption (in liters per 100 km/miles):</label>
-	  <input type="number" id="consumption" name="consumption" step="0.01" min="0" required>
-	</div>
-	
-	<div>
-    <button type="submit" value="Calculate" id="calculateBtn">Calculate</button>
- 
-	</div>
+    <div>
+      <label for="distance" id="label_1">Distance:</label>
+      <input type="number" id="distance" name="distance" step="0.01" min="0" required>
+      <p id="chooseUnits"> Choose Units km/mi</p>
+      <select id="unit" name="unit">
+        <option value="km">Kilometers</option>
+        <option value="mi">Miles</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="price" id="label_2">Price per liter:</label>
+      <input type="number" id="price" name="price" step="0.01" min="0" required>
+    </div>
+    
+    <div>
+      <label for="consumption" id="label_3">Fuel consumption (in liters per 100 km):</label>
+      <input type="number" id="consumption" name="consumption" step="0.01" min="0" required>
+    </div>
+    
+    <div>
+      <button type="submit" value="Calculate" id="calculateBtn">Calculate</button>
+    </div>
   </form>
 
-  
-  <div id="result"> 
-  </div>
+  <div id="result"></div>
   <div id="reload">
     <button id="recalculateBtn" onclick="CalculateNew()">Reset</button>
-  </div>  
-
-
+  </div>
 
   <script src="script.js"></script>
- </body>
-</html> 
-
-
-    <script src="script.js"></script>
-    
-     <!-- created by Luc <<https://accolades.dev>>  --> 
-   </body>
-  </html>
+      <!-- created by Luc <<https://accolades.dev>>  --> 
+</body>
+</html>

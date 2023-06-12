@@ -23,7 +23,7 @@
     font-size: 18px;
   }
   
-  #label_2, #label_3 {
+  #label_2, #label_3, #chooseUnits{
     display: inline-block;
     width: 95%;
     margin-top: 20px;
@@ -52,9 +52,6 @@
     font-size: 18px;
   }
 
-  button.completed {
-    background-color: red;
-  }
 
   #reload {
     width: fit-content;
@@ -107,6 +104,13 @@
     border-radius: 4px;
     padding: 10px;
     font-size: 16px;
+  }
+
+  #unit {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 4px;
   }
   
   button {
