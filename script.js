@@ -4,9 +4,19 @@ form.addEventListener('submit', function(event) {
   const distance = parseFloat(document.querySelector('#distance').value.replace(/[.,](?!\d)|,(?=\d{3})/g, ''));
   const price = parseFloat(document.querySelector('#price').value.replace(/[.,](?!\d)|,(?=\d{3})/g, ''));
   const consumption = parseFloat(document.querySelector('#consumption').value.replace(/[.,](?!\d)|,(?=\d{3})/g, ''));
-  const cost = (distance / 100) * consumption * price;
+  const unit = document.querySelector('#unit').value;
+  
+  let distanceInKm;
+  if (unit === 'mi') {
+    distanceInKm = distance * 1.60934;
+  } else {
+    distanceInKm = distance;
+  }
+  
+  const cost = (distanceInKm / 100) * consumption * price;
   const resultDiv = document.querySelector('#result');
-  resultDiv.innerHTML = `Result: The total cost of combustible used for ${distance.toLocaleString()} kilometers/miles is ${cost.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} € ($).`;
+  resultDiv.innerHTML = `Result: The total cost of combustible used for ${distance.toLocaleString()} ${unit} is ${cost.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} Euros (€).`;
+  
   // Reload the page after 30 seconds
   setTimeout(function() {
     window.location.reload();
