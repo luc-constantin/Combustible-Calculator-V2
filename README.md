@@ -14,7 +14,7 @@ Added JavaScript styled button for Units using CSS
 * calculating gas consumption based on distance
 * calculating gas consumption price per liter 
 * fuel consumption (in liters per 100 km)
-###### As it is currently in its early version, it only uses kilometers. 
+###### As it is currently in its early version, it only uses kilometers. UPDATE Version 1.5: Added miles.
 
 This App can assist you in estimating fuel expenses for your travel plans by allowing you to:
 * input your travel distance, 
